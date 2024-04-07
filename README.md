@@ -37,7 +37,6 @@
         "react-native-screens",
         "@react-native-community/**",
         "@react-navigation/**",
-        "metro",
         "react-query"
       ]
     },
@@ -139,4 +138,10 @@
     ];
     ```
 
-##
+- **unstable_enableSymlinks**
+
+      - true인 경우 resolution과정에서 심링크를 무시 하지 않는다.
+      - 심링크 타겟이 되는 디렉토리는 watchFolders안에 있어야함
+      - 0.79 부터 default ``true``
+
+  > 메트로 향후 버전에서는 옵션 삭제됨 (심링크는 기본 지원으로)

@@ -30,7 +30,7 @@
   },
   "scripts": {
     "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock",
-    "web:start": "yarn workspace web start",
+    "web:start": "yarn workspace cra start",
     "app:android": "yarn workspace app android",
     "app:ios": "yarn workspace app ios"
   },

@@ -5,8 +5,8 @@
  * @format
  */
 
-const exclusionList = require('metro-config/src/defaults/exclusionList');
-const {getMetroTools, getMetroAndroidAssetsResolutionFix} = require('react-native-monorepo-tools');
+const exclusionList = require("metro-config/src/defaults/exclusionList");
+const { getMetroTools, getMetroAndroidAssetsResolutionFix } = require("react-native-monorepo-tools");
 
 const monorepoMetroTools = getMetroTools();
 
@@ -23,7 +23,8 @@ module.exports = {
   },
   watchFolders: monorepoMetroTools.watchFolders,
   resolver: {
-    blockList: exclusionList(monorepoMetroTools.blockList),
-    extraNodeModules: monorepoMetroTools.extraNodeModules,
+    // unstable_enableSymlinks: true,
+    // blockList: exclusionList(monorepoMetroTools.blockList),
+    // extraNodeModules: monorepoMetroTools.extraNodeModules,
   },
 };
