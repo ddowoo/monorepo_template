@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-quiz_app-quiz_appTests/Pods-quiz_app-quiz_appTests-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage/RNCAsyncStorage_resources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle

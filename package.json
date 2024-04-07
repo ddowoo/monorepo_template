@@ -1,0 +1,39 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/@react-native-async-storage/async-storage",
+      "**/react",
+      "**/react-dom",
+      "**/react-native",
+      "**/react-native/**",
+      "**/react-native-codegen",
+      "**/react-native-dev-menu",
+      "**/react-native-macos",
+      "**/react-native-windows",
+      "jetifier",
+      "react-native-safe-area-context",
+      "react-native-screens",
+      "@react-native-community/**",
+      "@react-navigation/**",
+      "metro",
+      "react-query"
+    ]
+  },
+  "scripts": {
+    "reset": "find . -type dir -name node_modules | xargs rm -rf && rm -rf yarn.lock",
+    "web:start": "yarn workspace web start",
+    "app:android": "yarn workspace app android",
+    "app:ios": "yarn workspace app ios"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {}
+}
