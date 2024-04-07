@@ -24,7 +24,8 @@
       "react-native-screens",
       "@react-native-community/**",
       "@react-navigation/**",
-      "metro"
+      "metro",
+      "react-native-monorepo-tools"
     ]
   },
   "scripts": {

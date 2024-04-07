@@ -14,10 +14,12 @@
     "@react-navigation/native": "^6.1.12",
     "@react-navigation/stack": "^6.3.23",
     "axios": "^1.6.7",
+    "common": "0.0.1",
     "react": "18.2.0",
     "react-native": "0.71.16",
     "react-native-error-boundary": "^1.2.4",
     "react-native-gesture-handler": "^2.15.0",
+    "react-native-monorepo-tools": "^1.2.1",
     "react-native-paper": "^5.12.3",
     "react-native-pie-chart": "^3.0.2",
     "react-native-restart": "^0.0.27",
@@ -25,8 +27,7 @@
     "react-native-screens": "^3.29.0",
     "react-native-svg": "^15.0.0",
     "react-query": "^3.39.3",
-    "recoil": "^0.7.7",
-    "common": "0.0.1"
+    "recoil": "^0.7.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
