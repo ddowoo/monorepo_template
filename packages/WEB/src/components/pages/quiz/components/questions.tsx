@@ -1,7 +1,8 @@
 import { Dispatch, SetStateAction } from "react";
-import { useQuiz } from "../../../../store/server/useQuiz";
+// import { useQuiz } from "common";
 import { useSearchParams } from "react-router-dom";
 import { useQuizConfig } from "../../../../store/client/quizConfig";
+import { useQuiz } from "../../../../store/server/useQuiz";
 
 type Props = {
   isSolving: boolean;

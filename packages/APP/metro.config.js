@@ -23,7 +23,6 @@ module.exports = {
   },
   watchFolders: monorepoMetroTools.watchFolders,
   resolver: {
-    // Ensure we resolve nohoist libraries from this directory.
     blockList: exclusionList(monorepoMetroTools.blockList),
     extraNodeModules: monorepoMetroTools.extraNodeModules,
   },

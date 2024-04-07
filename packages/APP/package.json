@@ -1,5 +1,5 @@
 {
-  "name": "quiz_app",
+  "name": "app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -25,7 +25,8 @@
     "react-native-screens": "^3.29.0",
     "react-native-svg": "^15.0.0",
     "react-query": "^3.39.3",
-    "recoil": "^0.7.7"
+    "recoil": "^0.7.7",
+    "common": "0.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
